@@ -1,0 +1,14 @@
+{
+  "Metadata": {
+    "title": "Portfólio Pessoal | Guilherme Bustamante",
+    "description": "Explore meu portfólio, onde compartilho minha experiência na criação de soluções digitais inovadoras, incluindo websites responsivos, interfaces intuitivas e aplicações web de alto desempenho. Descubra como minhas habilidades se transformam em projetos que ultrapassam expectativas. Bem-vindo ao meu universo digital.",
+    "keywords": "desenvolvimento web, front-end, HTML, CSS, JavaScript, React, NextJS, UI/UX, portfólio, inovação digital, websites responsivos, interfaces intuitivas, programação web, desenvolvedor web, codificação, experiência do usuário, design de interface, tecnologia da informação, desenvolvimento de software, projetos digitais, codificador, portfolio online, criatividade digital, construção de sites, desenvolvimento ágil, tecnologias web, desenvolvimento responsivo, interatividade, tecnologias front-end, design web, programador React, habilidades de desenvolvimento, experiência em UI, frameworks web, construção de aplicativos, design centrado no usuário, codificação eficiente, soluções digitais, modernização de websites, otimização de desempenho, projetos interativos, desenvolvimento orientado ao usuário, arquitetura web, interfaces modernas, layout responsivo, estratégias de design, tecnologia UX, inovações em web design, HTML5, CSS3, JavaScript moderno, Typescript, Vite, Node.js, NodeJS, Next.js, Prisma, PrismaORM, PostgreSQL, Supabase, Firebase, Axios, Express, Next UI, NextUI, ShadCN/UI, ShadCN, TailwindCSS, Tailwind, Sass, Bootstrap, Framer Motion, Figma, UI, UX, UI/UX, UX/UI, Vercel, Git, React Native, Expo, Next Auth, Auth.js, Swiper, Stripe, Gamtech, Hotefy, DriveX, Cinedex, O Pedal Café, Pedal Café, Geoway."
+  },
+  "Languages": {
+    "en": "Inglês",
+    "pt": "Português"
+  },
+  "Index": {
+    "title": "Olá Mundo!"
+  }
+}
