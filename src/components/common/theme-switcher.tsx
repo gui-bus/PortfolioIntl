@@ -1,7 +1,7 @@
-'use client'
-import { HiMoon, HiSun } from "react-icons/hi";
+"use client";
 import { Button } from "../ui/button";
 import { useTheme } from "next-themes";
+import { TbSunMoon } from "react-icons/tb";
 
 interface ThemeSwitcherProps {
   size: "sm" | "lg" | "icon" | "default" | null | undefined;
@@ -27,13 +27,10 @@ const ThemeSwitcher = ({ size, variant }: ThemeSwitcherProps) => {
       variant={variant}
       onClick={toggleTheme}
       size={size}
-      className="rounded-full text-black dark:text-white/70"
+      className="rounded-full "
     >
-      {theme === "dark" ? (
-        <HiSun size={25} className="ml-2 text-white/70" />
-      ) : (
-        <HiMoon size={25} className="ml-2" />
-      )}
+      <span className="sr-only">Alterar Tema</span>
+      <TbSunMoon size={20} className="text-white" />
     </Button>
   );
 };
