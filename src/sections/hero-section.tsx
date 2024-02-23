@@ -8,13 +8,13 @@ import { IoChevronDownCircleOutline } from "react-icons/io5";
 export default function HeroSection() {
   return (
     <section>
-      <div className=" mx-auto flex w-full flex-col items-center justify-center md:relative xl:max-w-7xl">
+      <div className=" mx-auto flex w-full flex-col items-center justify-center md:relative 2xl:max-w-7xl">
         <Image
           src="/guibusTextBanner.svg"
           alt="Guibus Banner"
           width={0}
           height={0}
-          className="relative h-auto w-full object-cover xl:rounded-b-xl"
+          className="relative h-auto w-full object-cover 2xl:rounded-b-xl"
           sizes="100vw"
           priority
           draggable="false"
