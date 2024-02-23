@@ -2,6 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { useTransition } from "react";
+import { ReactCountryFlag } from "react-country-flag";
 
 import { MdGTranslate } from "react-icons/md";
 
@@ -36,15 +37,53 @@ export default function LocaleSwitcher() {
         </Avatar>
       </DropdownMenuTrigger>
       <DropdownMenuContent>
-        <DropdownMenuLabel>{t("language")}</DropdownMenuLabel>
+        <DropdownMenuLabel className="text-xs">
+          {t("language")}
+        </DropdownMenuLabel>
         <DropdownMenuSeparator />
-        <DropdownMenuItem onClick={() => toggleLocale("pt")}>
+        <DropdownMenuItem
+          className="flex items-center gap-2 text-xs transition-all duration-200 ease-in-out hover:font-medium"
+          onClick={() => toggleLocale("pt")}
+        >
+          <ReactCountryFlag
+            countryCode="BR"
+            svg
+            style={{
+              width: "1.5em",
+              height: "1.5em",
+            }}
+            title="BR"
+          />
           {t("pt-br")}
         </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => toggleLocale("en")}>
+        <DropdownMenuItem
+          className="flex items-center gap-2 text-xs transition-all duration-200 ease-in-out hover:font-medium"
+          onClick={() => toggleLocale("en")}
+        >
+          <ReactCountryFlag
+            countryCode="US"
+            svg
+            style={{
+              width: "1.5em",
+              height: "1.5em",
+            }}
+            title="US"
+          />
           {t("en-us")}
         </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => toggleLocale("es")}>
+        <DropdownMenuItem
+          className="flex items-center gap-2 text-xs transition-all duration-200 ease-in-out hover:font-medium"
+          onClick={() => toggleLocale("es")}
+        >
+          <ReactCountryFlag
+            countryCode="ES"
+            svg
+            style={{
+              width: "1.5em",
+              height: "1.5em",
+            }}
+            title="ES"
+          />
           {t("es")}
         </DropdownMenuItem>
       </DropdownMenuContent>
