@@ -4,11 +4,13 @@
     "description": "Explore my portfolio, where I showcase my expertise in crafting innovative digital solutions, including responsive websites, intuitive interfaces, and high-performance web applications. Discover how my skills translate into projects that exceed expectations. Welcome to my digital universe.",
     "keywords": "web development, front-end, HTML, CSS, JavaScript, React, Next.js, UI/UX, portfolio, digital innovation, responsive websites, intuitive interfaces, web programming, web developer, coding, user experience, interface design, information technology, software development, digital projects, coder, online portfolio, digital creativity, website construction, agile development, web technologies, responsive development, interactivity, front-end technologies, web design, React programmer, development skills, UI experience, web frameworks, app development, user-centric design, efficient coding, digital solutions, website modernization, performance optimization, interactive projects, user-oriented development, web architecture, modern interfaces, responsive layout, design strategies, UX technology, innovations in web design, HTML5, CSS3, modern JavaScript, Typescript, Vite, Node.js, Next.js, Prisma, Prisma ORM, PostgreSQL, Supabase, Firebase, Axios, Express, Next UI, NextUI, ShadCN/UI, ShadCN, Tailwind CSS, Tailwind, Sass, Bootstrap, Framer Motion, Figma, UI, UX, UI/UX, UX/UI, Vercel, Git, React Native, Expo, Next Auth, Auth.js, Swiper, Stripe, Gamtech, Hotefy, DriveX, Cinedex, The Pedal Café, Pedal Café, Geoway."
   },
-  "Languages": {
-    "en": "English",
-    "pt": "Portuguese"
-  },
   "Index": {
     "title": "Hello world!"
+  },
+  "Languages": {
+    "language": "Language",
+    "pt-br": "Portuguese",
+    "en-us": "English",
+    "es": "Spanish"
   }
 }
