@@ -1,44 +1,53 @@
 "use client";
 
-import { useLocale } from "next-intl";
+import { useTranslations } from "next-intl";
 import { useTransition } from "react";
-import { Button } from "./ui/button";
+
 import { MdGTranslate } from "react-icons/md";
 
-interface LocaleSwitcherProps {
-  size: "sm" | "lg" | "icon" | "default" | null | undefined;
-  variant:
-    | "default"
-    | "destructive"
-    | "outline"
-    | "secondary"
-    | "ghost"
-    | "link"
-    | null
-    | undefined;
-}
+import { Avatar, AvatarFallback } from "@/components/ui/avatar";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
-export default function LocaleSwitcher({ size, variant }: LocaleSwitcherProps) {
+export default function LocaleSwitcher() {
   const [isPending, startTransition] = useTransition();
-  const localActive = useLocale();
 
-  const toggleLocale = () => {
-    const nextLocale = localActive === "pt" ? "en" : "pt";
+  const t = useTranslations("Languages");
+
+  const toggleLocale = (nextLocale: string) => {
     startTransition(() => {
       window.location.href = `/${nextLocale}`;
     });
   };
 
   return (
-    <Button
-      variant={variant}
-      onClick={toggleLocale}
-      size={size}
-      disabled={isPending}
-      className="rounded-full text-black dark:text-white/70"
-    >
-      <span className="sr-only">Alterar Idioma</span>
-      <MdGTranslate size={20} className="text-white" />
-    </Button>
+    <DropdownMenu>
+      <DropdownMenuTrigger asChild>
+        <Avatar>
+          <AvatarFallback className="cursor-pointer bg-transparent transition-all duration-300 ease-in-out hover:bg-accent">
+            <MdGTranslate size={20} className="dark:text-white" />
+          </AvatarFallback>
+        </Avatar>
+      </DropdownMenuTrigger>
+      <DropdownMenuContent>
+        <DropdownMenuLabel>{t("language")}</DropdownMenuLabel>
+        <DropdownMenuSeparator />
+        <DropdownMenuItem onClick={() => toggleLocale("pt")}>
+          {t("pt-br")}
+        </DropdownMenuItem>
+        <DropdownMenuItem onClick={() => toggleLocale("en")}>
+          {t("en-us")}
+        </DropdownMenuItem>
+        <DropdownMenuItem onClick={() => toggleLocale("es")}>
+          {t("es")}
+        </DropdownMenuItem>
+      </DropdownMenuContent>
+    </DropdownMenu>
   );
 }
