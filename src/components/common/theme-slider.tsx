@@ -41,7 +41,7 @@ const SliderToggle = ({
   const { setTheme, theme } = useTheme();
 
   return (
-    <div className="relative flex w-fit items-center rounded-full">
+    <div className="relative flex w-fit items-center rounded-full border border-input">
       <Button
         variant={"link"}
         className={`${TOGGLE_CLASSES} ${
