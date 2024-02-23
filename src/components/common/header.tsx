@@ -10,27 +10,30 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { Button } from "../ui/button";
-import ThemeSwitcher from "./theme-switcher";
 import LocaleSwitcher from "../locale-switcher";
+import Link from "next/link";
+import ThemeSlider from "./theme-slider";
 
 const Header = () => {
   return (
     <header>
-      <Card className="rounded-none border-b border-none border-primary bg-[#1B1B1B] drop-shadow-lg">
+      <Card className="rounded-none border-b border-none border-primary bg-background drop-shadow-lg">
         <CardContent className="p-0 py-4">
-          <div className="mx-auto flex w-full max-w-5xl items-center justify-around md:justify-between">
-            <Image
-              src="/logo.svg"
-              alt="Guibus"
-              width={0}
-              height={0}
-              sizes="100vw"
-              className="h-auto w-28 object-contain"
-            />
+          <div className="mx-auto flex w-full max-w-5xl items-center justify-around lg:justify-between">
+            <Link href={"/"}>
+              <Image
+                src="/logo.svg"
+                alt="Guibus"
+                width={0}
+                height={0}
+                sizes="100vw"
+                className="h-auto w-24 object-contain invert dark:invert-0"
+              />
+            </Link>
 
             <div className="flex items-center gap-2">
-              <LocaleSwitcher variant={"ghost"} size={"icon"} />
-              <ThemeSwitcher variant={"ghost"} size={"icon"} />
+              <LocaleSwitcher />
+              <ThemeSlider />
               <Sheet>
                 <SheetTrigger asChild>
                   <Button
@@ -39,7 +42,7 @@ const Header = () => {
                     className="rounded-full"
                   >
                     <span className="sr-only">Abrir Menu</span>
-                    <TbMenuDeep size={20} className="text-white" />
+                    <TbMenuDeep size={20} className="dark:text-white" />
                   </Button>
                 </SheetTrigger>
                 <SheetContent>
