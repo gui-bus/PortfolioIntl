@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",
+    "@radix-ui/react-accordion": "^1.1.2",
     "@radix-ui/react-avatar": "^1.0.4",
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-dropdown-menu": "^2.0.6",
@@ -30,10 +31,13 @@
     "react-country-flag": "^3.1.0",
     "react-dom": "^18",
     "react-hook-form": "^7.50.1",
+    "react-hot-toast": "^2.4.1",
     "react-icons": "^5.0.1",
     "react-spinners": "^0.13.8",
+    "resend": "^3.2.0",
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7",
+    "vaul": "^0.9.0",
     "zod": "^3.22.4"
   },
   "devDependencies": {
