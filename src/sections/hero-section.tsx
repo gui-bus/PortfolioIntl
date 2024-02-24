@@ -19,7 +19,11 @@ export default function HeroSection() {
         ? "/guibusEN.svg"
         : locale === "es"
           ? "/guibusES.svg"
-          : "/guibusPT.svg";
+          : locale === "fr"
+            ? "/guibusFR.svg"
+            : locale === "cn"
+              ? "/guibusCN.svg"
+              : "/guibusEN.svg";
 
   return (
     <section>
