@@ -1,44 +1,73 @@
 {
-    "Metadata": {
-      "title": "Portfolio Personnel | Guilherme Bustamante",
-      "description": "Explorez mon portfolio, où je partage mon expérience dans la création de solutions digitales innovantes, y compris des sites web réactifs, des interfaces intuitives et des applications web haute performance. Découvrez comment mes compétences se transforment en projets qui dépassent les attentes. Bienvenue dans mon univers numérique.",
-      "keywords": "développement web, front-end, HTML, CSS, JavaScript, React, NextJS, UI/UX, portfolio, innovation digitale, sites web réactifs, interfaces intuitives, programmation web, développeur web, codage, expérience utilisateur, design d'interface, technologies de l'information, développement de logiciels, projets digitaux, codeur, portfolio en ligne, créativité digitale, construction de sites, développement agile, technologies web, développement réactif, interactivité, technologies front-end, design web, programmeur React, compétences en développement, expérience en UI, frameworks web, construction d'applications, design centré sur l'utilisateur, codage efficace, solutions digitales, modernisation de sites web, optimisation des performances, projets interactifs, développement axé sur l'utilisateur, architecture web, interfaces modernes, mise en page réactive, stratégies de design, technologie UX, innovations en design web, HTML5, CSS3, JavaScript moderne, Typescript, Vite, Node.js, NodeJS, Next.js, Prisma, PrismaORM, PostgreSQL, Supabase, Firebase, Axios, Express, Next UI, NextUI, ShadCN/UI, ShadCN, TailwindCSS, Tailwind, Sass, Bootstrap, Framer Motion, Figma, UI, UX, UI/UX, UX/UI, Vercel, Git, React Native, Expo, Next Auth, Auth.js, Swiper, Stripe, Gamtech, Hotefy, DriveX, Cinedex, O Pedal Café, Pedal Café, Geoway."
-    },
-    "Index": {
-      "title": "Transformant les Visions en Réalité",
-      "subtitle": "Explorez mon portfolio et découvrez comment je peux donner vie à votre vision digitale avec un design réactif, une UI/UX exceptionnelle et un développement de dernière génération."
-    },
-    "Languages": {
-      "language": "Sélectionnez la langue",
-      "pt-br": "Portugais",
-      "en-us": "Anglais",
-      "es": "Espagnol",
-      "fr": "Français",
-      "cn": "Chinois"
-    },
-    "Buttons": {
-      "externalProject": "Voir le projet",
-      "repository": "Dépôt"
-    },
-    "Projects": {
-      "DelimixSub": "Snacks, Pizzas et bien plus - Tout en un seul endroit !",
-      "DelimixDescription": "La DeliMix est une page d'atterrissage et un menu numérique réalisé avec React, Typescript, Next.js, ShadCN/UI, Tailwind CSS, Prisma, PostgreSQL, Neon, Clerk et Vercel. Découvrez l'excellence de la DeliMix, votre snack gastronomique préféré.",
-      "QuickBarberSub": "Trouvez, Programmez et Transformez votre style !",
-      "QuickBarberDescription": "QUICK BARBER est une plateforme de réservation de services de coiffeur développée avec React, Typescript, Next.js, ShadCN/UI, Tailwind CSS, Prisma, Neon et Vercel. Découvrez la praticité de QUICK BARBER, la plateforme de réservation en ligne qui simplifie tout le processus de réservation de créneaux horaires.",
-      "GamtechSub": "Élevant votre expérience technologique !",
-      "GamtechDescription": "Gamtech est un commerce électronique d'articles pour ordinateurs développé avec React, Typescript, Next.js, NextUI, ShadCN/UI, Tailwind CSS, Prisma, Supabase, Stripe et Vercel. Trouvez la prochaine amélioration de votre configuration chez Gamtech !",
-      "HotefySub": "Votre portail pour des voyages inoubliables !",
-      "HotefyDescription": "Hotefy est une plateforme de réservation de voyages développée avec React, Typescript, Next.js, NextUI, ShadCN/UI, Tailwind CSS, Prisma, Supabase et Vercel. Trouvez le refuge parfait et réalisez vos rêves !",
-      "JWSub": "Explorer le cosmos !",
-      "JWDescription": "Blog développé avec React, Typescript, Next.js, NextUI, ShadCN/UI, Tailwind CSS, Sanity CMS et Vercel qui vise à fournir divers types d'informations sur le télescope spatial James Webb.",
-      "ONDeskSub": "Simplifiant votre gestion d'entreprise !",
-      "ONDeskDescription": "ONDesk est un système de gestion de clients et d'appels développé avec React, Typescript, Next.js, NextUI, Tailwind CSS, Prisma, MongoDB et Vercel. Surveillez et améliorez votre relation client.",
-      "PedalSub": "Gestion efficace pour votre entreprise !",
-      "PedalDescription": "Le Pedal Café est un système Fullstack d'administration des commandes d'un café. Le projet propose de nombreuses fonctionnalités pour faciliter l'administration et l'exécution des commandes, offrant une gestion puissante et efficace des produits et des commandes !",
-      "CinedexSub": "Votre catalogue définitif de films et de séries !",
-      "CinedexDescription": "Cinedex est une plateforme en ligne de catalogue de films, développée avec React, Typescript, Next.js, NextUI, Tailwind CSS et Vercel. Le projet propose une large gamme d'options de films classées par catégories et genres à explorer !",
-      "DriveXSub": "Expérience automobile à un nouveau niveau !",
-      "DriveXDescription": "DriveX est une plateforme d'achat et de vente de véhicules développée avec Vite, React, TypeScript, Firebase et Tailwind CSS. Trouvez votre prochaine voiture de rêve !"
-    }
+  "Metadata": {
+    "title": "Portfolio Personnel | Guilherme Bustamante",
+    "description": "Explorez mon portfolio, où je partage mon expérience dans la création de solutions digitales innovantes, y compris des sites web réactifs, des interfaces intuitives et des applications web haute performance. Découvrez comment mes compétences se transforment en projets qui dépassent les attentes. Bienvenue dans mon univers numérique.",
+    "keywords": "développement web, front-end, HTML, CSS, JavaScript, React, NextJS, UI/UX, portfolio, innovation digitale, sites web réactifs, interfaces intuitives, programmation web, développeur web, codage, expérience utilisateur, design d'interface, technologies de l'information, développement de logiciels, projets digitaux, codeur, portfolio en ligne, créativité digitale, construction de sites, développement agile, technologies web, développement réactif, interactivité, technologies front-end, design web, programmeur React, compétences en développement, expérience en UI, frameworks web, construction d'applications, design centré sur l'utilisateur, codage efficace, solutions digitales, modernisation de sites web, optimisation des performances, projets interactifs, développement axé sur l'utilisateur, architecture web, interfaces modernes, mise en page réactive, stratégies de design, technologie UX, innovations en design web, HTML5, CSS3, JavaScript moderne, Typescript, Vite, Node.js, NodeJS, Next.js, Prisma, PrismaORM, PostgreSQL, Supabase, Firebase, Axios, Express, Next UI, NextUI, ShadCN/UI, ShadCN, TailwindCSS, Tailwind, Sass, Bootstrap, Framer Motion, Figma, UI, UX, UI/UX, UX/UI, Vercel, Git, React Native, Expo, Next Auth, Auth.js, Swiper, Stripe, Gamtech, Hotefy, DriveX, Cinedex, O Pedal Café, Pedal Café, Geoway."
+  },
+  "Index": {
+    "title": "Transformant les Visions en Réalité",
+    "subtitle": "Explorez mon portfolio et découvrez comment je peux donner vie à votre vision digitale avec un design réactif, une UI/UX exceptionnelle et un développement de dernière génération."
+  },
+  "Languages": {
+    "language": "Sélectionnez la langue",
+    "pt-br": "Portugais",
+    "en-us": "Anglais",
+    "es": "Espagnol",
+    "fr": "Français",
+    "cn": "Chinois"
+  },
+  "Buttons": {
+    "externalProject": "Voir le projet",
+    "repository": "Dépôt"
+  },
+  "Projects": {
+    "DelimixSub": "Snacks, Pizzas et bien plus - Tout en un seul endroit !",
+    "DelimixDescription": "La DeliMix est une page d'atterrissage et un menu numérique réalisé avec React, Typescript, Next.js, ShadCN/UI, Tailwind CSS, Prisma, PostgreSQL, Neon, Clerk et Vercel. Découvrez l'excellence de la DeliMix, votre snack gastronomique préféré.",
+    "QuickBarberSub": "Trouvez, Programmez et Transformez votre style !",
+    "QuickBarberDescription": "QUICK BARBER est une plateforme de réservation de services de coiffeur développée avec React, Typescript, Next.js, ShadCN/UI, Tailwind CSS, Prisma, Neon et Vercel. Découvrez la praticité de QUICK BARBER, la plateforme de réservation en ligne qui simplifie tout le processus de réservation de créneaux horaires.",
+    "GamtechSub": "Élevant votre expérience technologique !",
+    "GamtechDescription": "Gamtech est un commerce électronique d'articles pour ordinateurs développé avec React, Typescript, Next.js, NextUI, ShadCN/UI, Tailwind CSS, Prisma, Supabase, Stripe et Vercel. Trouvez la prochaine amélioration de votre configuration chez Gamtech !",
+    "HotefySub": "Votre portail pour des voyages inoubliables !",
+    "HotefyDescription": "Hotefy est une plateforme de réservation de voyages développée avec React, Typescript, Next.js, NextUI, ShadCN/UI, Tailwind CSS, Prisma, Supabase et Vercel. Trouvez le refuge parfait et réalisez vos rêves !",
+    "JWSub": "Explorer le cosmos !",
+    "JWDescription": "Blog développé avec React, Typescript, Next.js, NextUI, ShadCN/UI, Tailwind CSS, Sanity CMS et Vercel qui vise à fournir divers types d'informations sur le télescope spatial James Webb.",
+    "ONDeskSub": "Simplifiant votre gestion d'entreprise !",
+    "ONDeskDescription": "ONDesk est un système de gestion de clients et d'appels développé avec React, Typescript, Next.js, NextUI, Tailwind CSS, Prisma, MongoDB et Vercel. Surveillez et améliorez votre relation client.",
+    "PedalSub": "Gestion efficace pour votre entreprise !",
+    "PedalDescription": "Le Pedal Café est un système Fullstack d'administration des commandes d'un café. Le projet propose de nombreuses fonctionnalités pour faciliter l'administration et l'exécution des commandes, offrant une gestion puissante et efficace des produits et des commandes !",
+    "CinedexSub": "Votre catalogue définitif de films et de séries !",
+    "CinedexDescription": "Cinedex est une plateforme en ligne de catalogue de films, développée avec React, Typescript, Next.js, NextUI, Tailwind CSS et Vercel. Le projet propose une large gamme d'options de films classées par catégories et genres à explorer !",
+    "DriveXSub": "Expérience automobile à un nouveau niveau !",
+    "DriveXDescription": "DriveX est une plateforme d'achat et de vente de véhicules développée avec Vite, React, TypeScript, Firebase et Tailwind CSS. Trouvez votre prochaine voiture de rêve !"
+  },
+  "Accordion": {
+    "title01": "Pages d'atterrissage",
+    "description01": "Mettez en avant votre présence en ligne avec des pages d'atterrissage captivantes et réactives, soigneusement conçues pour attirer l'attention des visiteurs et stimuler les taux de conversion. Transformez les clics en actions tangibles et renforcez votre présence numérique.",
+    "title02": "Conceptions UI/UX",
+    "description02": "Transformez les concepts en expériences visuelles exceptionnelles. Avec mon expérience en UI/UX, je crée des interfaces captivantes qui impressionnent non seulement esthétiquement, mais offrent également des interactions intuitives pour les utilisateurs finaux.",
+    "title03": "Sites Institutionnels",
+    "description03": "Construisez une présence solide avec des sites institutionnels personnalisés. Transmettez l'identité unique de votre entreprise et présentez votre histoire, mission et valeurs de manière percutante, établissant ainsi la confiance et la crédibilité auprès de vos visiteurs.",
+    "title04": "Applications Web Réactives",
+    "description04": "Je développe des applications web modernes et réactives offrant une expérience cohérente sur différents appareils. Assurant que votre plateforme soit accessible depuis les ordinateurs de bureau, les tablettes et les smartphones.",
+    "sectionTitle": "Solutions Personnalisées pour Vous",
+    "sectionDescription": "Découvrez comment je peux contribuer au succès de votre projet ou entreprise. Voici quelques-uns des services que je propose pour répondre à vos besoins. Si vous souhaitez me recruter, n'hésitez pas à me contacter.",
+    "buttonTxt": "Demandez votre Devis",
+    "drawerTitle": "Formulaire de Demande de Devis",
+    "formRequiredField": "Champ obligatoire !",
+    "formTelField": "Entrez un numéro valide ! (Indicatif régional) + 9 chiffres",
+    "toastSuccess": "Devis demandé avec succès !",
+    "toastError": "Une erreur s'est produite lors de la demande de votre devis !",
+    "name": "Nom",
+    "namePlaceholder": "Entrez votre nom",
+    "whats": "WhatsApp",
+    "whatsPlaceholder": "Entrez votre numéro WhatsApp",
+    "email": "E-mail",
+    "emailPlaceholder": "Entrez votre adresse e-mail",
+    "title": "Sujet",
+    "titlePlaceholder": "Entrez le sujet de votre demande",
+    "content": "Informations",
+    "contentDescription": "Utilisez cet espace pour fournir des détails spécifiques sur votre demande. Décrivez clairement ce que vous aimeriez réaliser, mentionnez les fonctionnalités souhaitées et incluez toute autre information que vous jugez pertinente.",
+    "submitButton": "Demander un devis",
+    "backButton": "Retour"
   }
-  
+}
