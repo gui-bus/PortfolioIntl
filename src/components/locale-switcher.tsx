@@ -86,6 +86,36 @@ export default function LocaleSwitcher() {
           />
           {t("es")}
         </DropdownMenuItem>
+        <DropdownMenuItem
+          className="flex items-center gap-2 text-xs transition-all duration-200 ease-in-out hover:font-medium"
+          onClick={() => toggleLocale("fr")}
+        >
+          <ReactCountryFlag
+            countryCode="FR"
+            svg
+            style={{
+              width: "1.5em",
+              height: "1.5em",
+            }}
+            title="FR"
+          />
+          {t("fr")}
+        </DropdownMenuItem>
+        <DropdownMenuItem
+          className="flex items-center gap-2 text-xs transition-all duration-200 ease-in-out hover:font-medium"
+          onClick={() => toggleLocale("cn")}
+        >
+          <ReactCountryFlag
+            countryCode="CN"
+            svg
+            style={{
+              width: "1.5em",
+              height: "1.5em",
+            }}
+            title="CN"
+          />
+          {t("cn")}
+        </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
   );

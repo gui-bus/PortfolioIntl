@@ -1,0 +1,43 @@
+{
+  "Metadata": {
+    "title": "个人作品集 | 吉尔赫梅·布斯塔曼特",
+    "description": "探索我的作品集，分享我在创造创新数字解决方案方面的经验，包括响应式网站、直观界面和高性能Web应用程序。了解我的技能如何转化为超越期望的项目。欢迎来到我的数字世界。",
+    "keywords": "Web开发, 前端, HTML, CSS, JavaScript, React, NextJS, UI/UX, 作品集, 数字创新, 响应式网站, 直观界面, Web应用程序, Web开发人员, 编码, 用户体验, 界面设计, 信息技术, 软件开发, 数字项目, 编码者, 在线作品集, 数字创意, 网站建设, 敏捷开发, Web技术, 响应式开发, 互动性, 前端技术, 网页设计, React程序员, 开发技能, 用户界面经验, Web框架, 应用程序开发, 用户中心设计, 高效编码, 数字解决方案, 网站现代化, 性能优化, 交互式项目, 用户导向开发, Web架构, 现代界面, 响应式布局, 设计策略, 用户体验技术, Web设计创新, HTML5, CSS3, 现代JavaScript, Typescript, Vite, Node.js, NodeJS, Next.js, Prisma, PrismaORM, PostgreSQL, Supabase, Firebase, Axios, Express, Next UI, NextUI, ShadCN/UI, ShadCN, TailwindCSS, Tailwind, Sass, Bootstrap, Framer Motion, Figma, UI, UX, UI/UX, UX/UI, Vercel, Git, React Native, Expo, Next Auth, Auth.js, Swiper, Stripe, Gamtech, Hotefy, DriveX, Cinedex, 咖啡踏板, Pedal Café, Geoway."
+  },
+  "Index": {
+    "title": "将愿景转化为现实",
+    "subtitle": "探索我的作品集，发现我如何通过响应式设计、卓越的UI/UX和先进的开发为您的数字愿景注入生命。"
+  },
+  "Languages": {
+    "language": "选择语言",
+    "pt-br": "葡萄牙语",
+    "en-us": "英语",
+    "es": "西班牙语",
+    "fr": "法语",
+    "cn": "中文"
+  },
+  "Buttons": {
+    "externalProject": "查看项目",
+    "repository": "代码库"
+  },
+  "Projects": {
+    "DelimixSub": "小吃、披萨等等 - 一个地方应有尽有！",
+    "DelimixDescription": "DeliMix是一个使用React、Typescript、Next.js、ShadCN/UI、Tailwind CSS、Prisma、PostgreSQL、Neon、Clerk和Vercel制作的落地页和数字菜单。发现DeliMix卓越的品质，您最喜爱的小吃店。",
+    "QuickBarberSub": "发现、预约、改变您的风格！",
+    "QuickBarberDescription": "QuickBarber是一款服务理发店预订的平台，使用React、Typescript、Next.js、ShadCN/UI、Tailwind CSS、Prisma、Neon和Vercel制作。发现QuickBarber的便利性，这个在线预约平台简化了整个预订时间的流程。",
+    "GamtechSub": "提升您的科技体验！",
+    "GamtechDescription": "Gamtech是一家出售电脑配件的电子商务网站，使用React、Typescript、Next.js、NextUI、ShadCN/UI、Tailwind CSS、Prisma、Supabase、Stripe和Vercel制作。在Gamtech找到您设置的下一个升级！",
+    "HotefySub": "您旅行难忘的门户！",
+    "HotefyDescription": "Hotefy是一家旅行预订平台，使用React、Typescript、Next.js、NextUI、ShadCN/UI、Tailwind CSS、Prisma、Supabase和Vercel制作。找到完美的避风港，实现您的梦想！",
+    "JWSub": "探索宇宙！",
+    "JWDescription": "使用React、Typescript、Next.js、NextUI、ShadCN/UI、Tailwind CSS、Sanity CMS和Vercel制作的博客，旨在提供有关詹姆斯·韦伯太空望远镜的各种信息。",
+    "ONDeskSub": "简化您的企业管理！",
+    "ONDeskDescription": "ONDesk是一款客户和工单管理系统，使用React、Typescript、Next.js、NextUI、Tailwind CSS、Prisma、MongoDB和Vercel制作。监控并改善与客户的关系。",
+    "PedalSub": "为您的业务提供高效管理！",
+    "PedalDescription": "Pedal Café是一款全栈咖啡店订单管理系统。该项目具有各种功能，可简化订单的管理和执行，为产品和订单提供强大而高效的管理。",
+    "CinedexSub": "您的电影和电视系列终极目录！",
+    "CinedexDescription": "Cinedex是一个在线电影目录平台，使用React、Typescript、Next.js、NextUI、Tailwind CSS和Vercel制作。该项目提供广泛的电影选择，按类别和流派分类，供您探索！",
+    "DriveXSub": "将汽车体验提升到新的高度！",
+    "DriveXDescription": "DriveX是一款汽车买卖平台，使用Vite、React、Typescript、Firebase和Tailwind CSS制作。找到您下一辆梦想的车辆！"
+  }
+}
