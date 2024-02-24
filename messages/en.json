@@ -5,12 +5,39 @@
     "keywords": "web development, front-end, HTML, CSS, JavaScript, React, Next.js, UI/UX, portfolio, digital innovation, responsive websites, intuitive interfaces, web programming, web developer, coding, user experience, interface design, information technology, software development, digital projects, coder, online portfolio, digital creativity, website construction, agile development, web technologies, responsive development, interactivity, front-end technologies, web design, React programmer, development skills, UI experience, web frameworks, app development, user-centric design, efficient coding, digital solutions, website modernization, performance optimization, interactive projects, user-oriented development, web architecture, modern interfaces, responsive layout, design strategies, UX technology, innovations in web design, HTML5, CSS3, modern JavaScript, Typescript, Vite, Node.js, Next.js, Prisma, Prisma ORM, PostgreSQL, Supabase, Firebase, Axios, Express, Next UI, NextUI, ShadCN/UI, ShadCN, Tailwind CSS, Tailwind, Sass, Bootstrap, Framer Motion, Figma, UI, UX, UI/UX, UX/UI, Vercel, Git, React Native, Expo, Next Auth, Auth.js, Swiper, Stripe, Gamtech, Hotefy, DriveX, Cinedex, The Pedal Café, Pedal Café, Geoway."
   },
   "Index": {
-    "title": "Hello world!"
+    "title": "Transforming Visions into Reality",
+    "subtitle": "Explore my portfolio and discover how I can bring your digital vision to life with responsive design, exceptional UI/UX, and cutting-edge development."
   },
   "Languages": {
     "language": "Select the language",
     "pt-br": "Portuguese",
     "en-us": "English",
-    "es": "Spanish"
+    "es": "Spanish",
+    "fr": "French",
+    "cn": "Chinese"
+  },
+  "Buttons": {
+    "externalProject": "View Project",
+    "repository": "Repository"
+  },
+  "Projects": {
+    "DelimixSub": "Snacks, Pizzas, and Much More - All in One Place!",
+    "DelimixDescription": "DeliMix is a landing page and digital menu created with React, Typescript, Next.js, ShadCN/UI, Tailwind CSS, Prisma, PostgreSQL, Neon, Clerk, and Vercel. Discover the excellence of DeliMix, your favorite gourmet snack bar.",
+    "QuickBarberSub": "Find, Schedule, and Transform Your Style!",
+    "QuickBarberDescription": "QUICK BARBER is a platform for booking barbershop services developed with React, Typescript, Next.js, ShadCN/UI, Tailwind CSS, Prisma, Neon, and Vercel. Discover the convenience of QUICK BARBER, the online scheduling platform that simplifies the entire appointment booking process.",
+    "GamtechSub": "Elevating Your Technological Experience!",
+    "GamtechDescription": "Gamtech is an e-commerce platform for computer items developed with React, Typescript, Next.js, NextUI, ShadCN/UI, Tailwind CSS, Prisma, Supabase, Stripe, and Vercel. Come find the next upgrade for your setup at Gamtech!",
+    "HotefySub": "Your Gateway to Unforgettable Travel!",
+    "HotefyDescription": "Hotefy is a travel booking platform developed with React, Typescript, Next.js, NextUI, ShadCN/UI, Tailwind CSS, Prisma, Supabase, and Vercel. Come find the perfect retreat and make your dreams come true!",
+    "JWSub": "Exploring the Cosmos!",
+    "JWDescription": "Blog developed with React, Typescript, Next.js, NextUI, ShadCN/UI, Tailwind CSS, Sanity CMS, and Vercel with the aim of providing various types of information about the James Webb Space Telescope.",
+    "ONDeskSub": "Simplifying Your Business Management!",
+    "ONDeskDescription": "ONDesk is a customer and ticket management system developed with React, Typescript, Next.js, NextUI, Tailwind CSS, Prisma, MongoDB, and Vercel. Monitor and enhance your customer relationships.",
+    "PedalSub": "Efficient Management for Your Business!",
+    "PedalDescription": "Pedal Café is a Fullstack system for managing orders in a coffee shop. The project includes various features to facilitate the administration and execution of orders, providing powerful and efficient management of products and orders!",
+    "CinedexSub": "Your Ultimate Catalog of Movies and Series!",
+    "CinedexDescription": "Cinedex is an online platform for a movie catalog developed with React, Typescript, Next.js, NextUI, Tailwind CSS, and Vercel. The project offers a wide range of movie options categorized by genres for you to explore!",
+    "DriveXSub": "Automotive Experience at a New Level!",
+    "DriveXDescription": "DriveX is a platform for buying and selling vehicles developed with Vite, React, TypeScript, Firebase, and Tailwind CSS. Find your next dream car!"
   }
 }
