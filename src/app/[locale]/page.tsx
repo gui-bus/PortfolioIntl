@@ -1,4 +1,5 @@
 import { Separator } from "@/components/ui/separator";
+import AccordionSection from "@/sections/accordion-section";
 import HeroSection from "@/sections/hero-section";
 import ProjectsSection from "@/sections/projects-section";
 import { useTranslations } from "next-intl";
@@ -18,7 +19,11 @@ export default function Index() {
           </p>
         </div>
 
-        <Separator className="mt-5 mb-5 md:mb-0"/>
+        <Separator className="my-5" />
+
+        <AccordionSection />
+
+        <Separator className="mb-5 mt-5 md:mb-0" />
 
         <ProjectsSection id="Projects" />
       </div>
