@@ -35,7 +35,7 @@ const AccordionSection = () => {
             {t("buttonTxt")} <LiaFileInvoiceDollarSolid size={20} />
           </Button>
         </DrawerTrigger>
-        <DrawerContent className="mx-auto w-full 2xl:max-w-7xl">
+        <DrawerContent className="mx-auto w-full 3xl:max-w-7xl">
           <DrawerHeader>
             <DrawerTitle>{t("drawerTitle")}</DrawerTitle>
             <DrawerDescription className="mt-5">

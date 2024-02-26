@@ -27,7 +27,7 @@ export default function HeroSection() {
 
   return (
     <section>
-      <div className=" mx-auto flex w-full flex-col items-center justify-center md:relative 2xl:max-w-7xl">
+      <div className=" mx-auto flex w-full flex-col items-center justify-center md:relative 3xl:max-w-7xl">
         <Image
           src={imagePath}
           alt="Guibus Banner"

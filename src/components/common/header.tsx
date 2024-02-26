@@ -16,7 +16,7 @@ import ThemeSlider from "./theme-slider";
 
 const Header = () => {
   return (
-    <header className="w-full 2xl:max-w-7xl mx-auto">
+    <header className="w-full 3xl:max-w-7xl mx-auto">
       <Card className="rounded-none border-b border-none border-primary bg-background drop-shadow-lg">
         <CardContent className="p-0 py-4">
           <div className="mx-auto flex w-full max-w-5xl items-center justify-around lg:justify-between">
