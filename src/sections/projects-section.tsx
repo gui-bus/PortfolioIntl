@@ -126,8 +126,21 @@ const ProjectsSection = ({ id }: { id: string }) => {
 
   return (
     <section className="mx-auto w-full max-w-7xl select-none" id={id}>
-      <Carousel className="mx-auto w-full max-w-7xl" setApi={setApi}>
-        <div className="mt-2 flex items-center justify-center md:hidden gap-2">
+      <div className="flex w-full flex-col items-center justify-center text-center">
+        <h2 className="whitespace-nowrap text-3xl font-black uppercase lg:text-5xl">
+          {t("title")}
+        </h2>
+        <p className="w-full text-sm font-light">{t("subtitle")}</p>
+      </div>
+
+      <Carousel
+        className="mx-auto w-full max-w-7xl"
+        setApi={setApi}
+        opts={{
+          loop: true,
+        }}
+      >
+        <div className="mt-2 flex items-center justify-center gap-2 md:hidden">
           <div className="left-1/2 top-3 -translate-x-1/2 -translate-y-1/2 transform">
             <CarouselPrevious />
           </div>
@@ -140,7 +153,7 @@ const ProjectsSection = ({ id }: { id: string }) => {
             <CarouselNext />
           </div>
         </div>
-        <CarouselContent>
+        <CarouselContent className="cursor-grab active:cursor-grabbing">
           {projectData.map((project) => (
             <CarouselItem key={project.id}>
               <ImageLeft
@@ -155,7 +168,7 @@ const ProjectsSection = ({ id }: { id: string }) => {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <div className="my-2 hidden items-center justify-center md:flex gap-2">
+        <div className="my-2 hidden items-center justify-center gap-2 md:flex">
           <div className="left-1/2 top-3 -translate-x-1/2 -translate-y-1/2 transform">
             <CarouselPrevious />
           </div>
