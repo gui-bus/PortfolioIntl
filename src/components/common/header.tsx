@@ -1,15 +1,5 @@
 import Image from "next/image";
-import { TbMenuDeep } from "react-icons/tb";
 import { Card, CardContent } from "../ui/card";
-import {
-  Sheet,
-  SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet";
-import { Button } from "../ui/button";
 import LocaleSwitcher from "../locale-switcher";
 import Link from "next/link";
 import ThemeSlider from "./theme-slider";
@@ -34,27 +24,6 @@ const Header = () => {
             <div className="flex items-center gap-2">
               <LocaleSwitcher />
               <ThemeSlider />
-              <Sheet>
-                <SheetTrigger asChild>
-                  <Button
-                    size={"icon"}
-                    variant={"ghost"}
-                    className="rounded-full"
-                  >
-                    <span className="sr-only">Abrir Menu</span>
-                    <TbMenuDeep size={20} className="dark:text-white" />
-                  </Button>
-                </SheetTrigger>
-                <SheetContent>
-                  <SheetHeader>
-                    <SheetTitle>Are you absolutely sure?</SheetTitle>
-                    <SheetDescription>
-                      This action cannot be undone. This will permanently delete
-                      your account and remove your data from our servers.
-                    </SheetDescription>
-                  </SheetHeader>
-                </SheetContent>
-              </Sheet>
             </div>
           </div>
         </CardContent>

@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import Header from "@/components/common/header";
 import { NextIntlClientProvider, useMessages } from "next-intl";
 import { Toaster } from "react-hot-toast";
+import Footer from "@/components/common/footer";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -43,7 +44,8 @@ export default function RootLayout({
           <NextIntlClientProvider locale={locale} messages={messages}>
             <Toaster position="top-center" reverseOrder={false} />
             <Header />
-            {children}
+            <main className="bg-gradient-to-b from-[#f8f8f8] to-[#f5f5f5] dark:from-background dark:to-muted/30">{children}</main>
+            <Footer />
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>

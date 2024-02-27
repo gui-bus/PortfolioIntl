@@ -36,8 +36,6 @@ export default function Index() {
         <Separator className="my-5 md:mt-8" />
 
         <AccordionSection />
-
-        <Separator className="my-5 md:mt-8" />
       </div>
     </main>
   );

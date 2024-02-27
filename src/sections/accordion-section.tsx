@@ -17,7 +17,7 @@ import BudgetForm from "@/components/budget-form";
 const AccordionSection = () => {
   const t = useTranslations("Accordion");
   return (
-    <section>
+    <section className="pb-10">
       <div className="flex flex-col gap-2">
         <h1 className="text-center text-2xl font-black uppercase lg:text-4xl">
           {t("sectionTitle")}
