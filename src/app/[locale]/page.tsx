@@ -5,8 +5,15 @@ import ProjectsSection from "@/sections/projects-section";
 import AboutSection from "@/sections/about-section";
 import { useTranslations } from "next-intl";
 import TechSection from "@/sections/tech-section";
+import { unstable_setRequestLocale } from "next-intl/server";
 
-export default function Index() {
+export default function Index({
+  params: { locale },
+}: {
+  params: { locale: string };
+}) {
+  unstable_setRequestLocale(locale);
+
   const t = useTranslations("Index");
   return (
     <main>

@@ -4,6 +4,7 @@ import { getTranslations } from "next-intl/server";
 import { ThemeProvider } from "@/components/theme-provider";
 import Header from "@/components/common/header";
 import { NextIntlClientProvider, useMessages } from "next-intl";
+import { unstable_setRequestLocale } from "next-intl/server";
 import { Toaster } from "react-hot-toast";
 import Footer from "@/components/common/footer";
 
@@ -30,6 +31,7 @@ export default function RootLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
+  unstable_setRequestLocale(locale);
   const messages = useMessages();
 
   return (
@@ -44,7 +46,9 @@ export default function RootLayout({
           <NextIntlClientProvider locale={locale} messages={messages}>
             <Toaster position="top-center" reverseOrder={false} />
             <Header />
-            <main className="bg-gradient-to-b from-[#f8f8f8] to-[#f5f5f5] dark:from-background dark:to-muted/30">{children}</main>
+            <main className="bg-gradient-to-b from-[#f8f8f8] to-[#f5f5f5] dark:from-background dark:to-muted/30">
+              {children}
+            </main>
             <Footer />
           </NextIntlClientProvider>
         </ThemeProvider>
