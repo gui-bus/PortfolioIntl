@@ -38,7 +38,9 @@
     "CinedexSub": "Your Ultimate Catalog of Movies and Series!",
     "CinedexDescription": "Cinedex is an online platform for a movie catalog developed with React, Typescript, Next.js, NextUI, Tailwind CSS, and Vercel. The project offers a wide range of movie options categorized by genres for you to explore!",
     "DriveXSub": "Automotive Experience at a New Level!",
-    "DriveXDescription": "DriveX is a platform for buying and selling vehicles developed with Vite, React, TypeScript, Firebase, and Tailwind CSS. Find your next dream car!"
+    "DriveXDescription": "DriveX is a platform for buying and selling vehicles developed with Vite, React, TypeScript, Firebase, and Tailwind CSS. Find your next dream car!",
+    "title": "Projects",
+    "subtitle": "Browse through a selection of projects that illustrate my dedication and skills throughout my career."
   },
   "Accordion": {
     "title01": "Landing Pages",
@@ -69,5 +71,37 @@
     "contentDescription": "Use this space to provide specific details about your request. Clearly describe what you would like to be done, mention desired features, and include any other information you find relevant.",
     "submitButton": "Request Quote",
     "backButton": "Back"
+  },
+  "Tech": {
+    "title": "Tech Stack",
+    "subtitle": "Check out the list of technologies I have encountered and consistently use in my projects."
+  },
+  "About": {
+    "about01": "I am a Frontend Developer specializing in cutting-edge technologies, with a focus on React, Next.js, TypeScript, and Tailwind. In addition to these specialties, I also have extensive knowledge in areas such as databases and UI/UX design.",
+    "about02": "My experience encompasses applying these skills in diverse projects, standing out in implementing best practices for responsiveness and producing clean and well-structured code. I ensure efficiency and quality in every delivery, solidifying my commitment to technical excellence and client satisfaction.",
+    "smText01": "Frontend",
+    "smText02": "Web Design",
+    "smText03": "UI/UX",
+    "smText04": "Responsive Design",
+    "smText05": "Creative Solutions",
+    "smText06": "Engaging Interfaces",
+    "title01": "Organization",
+    "subtitle01": "I consider organization and planning as crucial foundations for success in any project I participate in.",
+    "title02": "Responsibility",
+    "subtitle02": "Total commitment to my responsibilities, seeking to contribute in the best way possible in a responsible manner.",
+    "title03": "Determination",
+    "subtitle03": "My determination drives my focus on studies, promoting a constant pursuit of evolution and improvement.",
+    "title04": "Creativity",
+    "subtitle04": "Creativity guides me toward innovative solutions, promoting continuous practice and exploration.",
+    "title05": "Collaboration",
+    "subtitle05": "I believe in the importance of collaboration to achieve exceptional results as a team, valuing the diversity of ideas.",
+    "title06": "Adaptability",
+    "subtitle06": "I am flexible and capable of adapting to new challenges, demonstrating the ability to learn quickly and effectively.",
+    "title07": "Attention to Detail",
+    "subtitle07": "Committed to precision and attention to detail, ensuring high-quality deliveries in every task.",
+    "title08": "Self-learning",
+    "subtitle08": "I demonstrate a strong capacity for self-directed learning, constantly seeking to expand my skills.",
+    "title09": "Time Management",
+    "subtitle09": "I possess the ability to efficiently manage time to meet deadlines and priorities, ensuring timely delivery of results."
   }
 }

@@ -38,7 +38,9 @@
     "CinedexSub": "Seu catálogo definitivo de filmes e series!",
     "CinedexDescription": "A Cinedex é uma plataforma online de catálogo de filmes, desenvolvido com React, Typescript, Next.js, NextUI, Tailwind CSS e Vercel. O projeto conta com uma ampla gama de opções de filmes separados por categorias e gêneros para explorar!",
     "DriveXSub": "Experiência automotiva em um novo patamar!",
-    "DriveXDescription": "A DriveX é uma plataforma de compra e venda de veículos desenvolvido com Vite, React, TypeScript, Firebase e Tailwind CSS. Encontre o seu próximo carro dos sonhos!"
+    "DriveXDescription": "A DriveX é uma plataforma de compra e venda de veículos desenvolvido com Vite, React, TypeScript, Firebase e Tailwind CSS. Encontre o seu próximo carro dos sonhos!",
+    "title": "Projetos",
+    "subtitle": " Navegue por uma seleção de projetos que ilustram minha dedicação e habilidades ao longo da carreira."
   },
   "Accordion": {
     "title01": "Landing Pages",
@@ -69,5 +71,38 @@
     "contentDescription": "Utilize este espaço para fornecer detalhes específicos sobre a sua solicitação. Descreva com clareza o que você deseja que seja realizado, mencione as funcionalidades desejadas e inclua qualquer outra informação que considere relevante.",
     "submitButton": "Solicitar Orçamento",
     "backButton": "Voltar"
+  },
+  "Tech": {
+    "title": "Tech Stack",
+    "subtitle": "Confira a lista das tecnologias com as quais ja tive contato e constantemente utilizo em meus projetos."
+  },
+  "About": {
+    "about01": "Sou um Desenvolvedor Frontend especializado em tecnologias de ponta, com ênfase em React, Next.js, TypeScript e Tailwind. Além dessas especialidades, também possuo conhecimentos abrangentes em áreas como bancos de dados e design UI/UX.",
+    "about02": "Minha experiência engloba a aplicação desses conhecimentos em projetos variados destacando-me na implementação das melhores práticas de responsividade e na produção de código limpo e bem estruturado. Garanto eficiência e qualidade em cada entrega, consolidando meu compromisso com a excelência técnica e a satisfação do cliente.",
+    "smText01": "Frontend",
+    "smText02": "Web Design",
+    "smText03": "UI/UX",
+    "smText04": "Design Responsivo",
+    "smText05": "Soluções Criativas",
+    "smText06": "Interfaces Atraentes",
+    "title01": "Organização",
+    "subtitle01": "Considero a organização e o planejamento como alicerces cruciais para o sucesso em qualquer projeto que participo.",
+    "title02": "Responsabilidade",
+    "subtitle02": "Comprometimento total com minhas responsabilidades, buscando contribuir da melhor forma possível de maneira responsável.",
+    "title03": "Determinação",
+    "subtitle03": "Minha determinação impulsiona meu foco nos estudos, promovendo uma busca constante por evolução e superação.",
+    "title04": "Criatividade",
+    "subtitle04": "A criatividade me guia em direção a soluções inovadoras, promovendo prática e exploração contínuas.",
+    "title05": "Colaboração",
+    "subtitle05": "Acredito na importância da colaboração para alcançar resultados excepcionais em equipe, valorizando a diversidade de ideias.",
+    "title06": "Adaptabilidade",
+    "subtitle06": "Sou flexível e capaz de me adaptar a novos desafios, demonstrando habilidade em aprender rapidamente e efetivamente.",
+    "title07": "Detalhista",
+    "subtitle07": "Comprometido com a precisão e atenção aos detalhes, assegurando entregas de alta qualidade em cada tarefa.",
+    "title08": "Autoaprendizado",
+    "subtitle08": "Demonstro uma forte capacidade de aprendizado autodidata, buscando constantemente expandir minhas habilidades.",
+    "title09": "Gestão do Tempo",
+    "subtitle09": "Possuo habilidade em gerenciar eficientemente o tempo para cumprir prazos e prioridades, garantindo a entrega oportuna de resultados."
   }
+
 }

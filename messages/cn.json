@@ -38,7 +38,9 @@
     "CinedexSub": "您的电影和电视系列终极目录！",
     "CinedexDescription": "Cinedex是一个在线电影目录平台，使用React、Typescript、Next.js、NextUI、Tailwind CSS和Vercel制作。该项目提供广泛的电影选择，按类别和流派分类，供您探索！",
     "DriveXSub": "将汽车体验提升到新的高度！",
-    "DriveXDescription": "DriveX是一款汽车买卖平台，使用Vite、React、Typescript、Firebase和Tailwind CSS制作。找到您下一辆梦想的车辆！"
+    "DriveXDescription": "DriveX是一款汽车买卖平台，使用Vite、React、Typescript、Firebase和Tailwind CSS制作。找到您下一辆梦想的车辆！",
+    "title": "项目",
+    "subtitle": "浏览一系列项目，展示了我在整个职业生涯中的投入和技能。"
   },
   "Accordion": {
     "title01": "着陆页",
@@ -69,5 +71,37 @@
     "contentDescription": "使用此空间提供有关您请求的具体详细信息。清楚地描述您希望完成的任务，提到期望的功能，并包括您认为相关的任何其他信息。",
     "submitButton": "请求报价",
     "backButton": "返回"
+  },
+  "Tech": {
+    "title": "技术栈",
+    "subtitle": "查看我接触过并在项目中经常使用的技术列表。"
+  },
+  "About": {
+    "about01": "我是一名专业从事前端开发的开发者，专注于React、Next.js、TypeScript和Tailwind等尖端技术。除了这些专业知识外，我还在数据库和UI/UX设计等领域有广泛的知识。",
+    "about02": "我的经验包括在各种项目中应用这些知识，着重于实现响应性的最佳实践以及生成干净且结构良好的代码。我确保在每一次交付中都能实现效率和质量，巩固我对技术卓越和客户满意度的承诺。",
+    "smText01": "前端",
+    "smText02": "网页设计",
+    "smText03": "UI/UX",
+    "smText04": "响应式设计",
+    "smText05": "创意解决方案",
+    "smText06": "引人入胜的界面",
+    "title01": "组织",
+    "subtitle01": "我认为组织和规划是我参与的任何项目成功的关键基础。",
+    "title02": "责任",
+    "subtitle02": "我对我的职责全力以赴，努力以负责任的方式尽可能地做出贡献。",
+    "title03": "决心",
+    "subtitle03": "我的决心推动我专注于学习，不断追求进步和提高。",
+    "title04": "创意",
+    "subtitle04": "创意引导我走向创新的解决方案，促进不断的实践和探索。",
+    "title05": "合作",
+    "subtitle05": "我相信团队合作对于取得卓越成果的重要性，重视思想的多样性。",
+    "title06": "适应性",
+    "subtitle06": "我灵活且能够适应新的挑战，展示出快速有效学习的能力。",
+    "title07": "注意细节",
+    "subtitle07": "致力于精确和注重细节，确保每项任务的高质量交付。",
+    "title08": "自学能力",
+    "subtitle08": "我展示了强大的自学能力，不断寻求扩展我的技能。",
+    "title09": "时间管理",
+    "subtitle09": "我具备高效管理时间以满足截止日期和优先事项的能力，确保及时交付结果。"
   }
 }
