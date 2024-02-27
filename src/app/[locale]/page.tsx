@@ -2,7 +2,9 @@ import { Separator } from "@/components/ui/separator";
 import AccordionSection from "@/sections/accordion-section";
 import HeroSection from "@/sections/hero-section";
 import ProjectsSection from "@/sections/projects-section";
+import AboutSection from "@/sections/about-section";
 import { useTranslations } from "next-intl";
+import TechSection from "@/sections/tech-section";
 
 export default function Index() {
   const t = useTranslations("Index");
@@ -21,11 +23,21 @@ export default function Index() {
 
         <Separator className="my-5" />
 
-        <AccordionSection />
+        <AboutSection id="About" />
 
-        <Separator className="mb-5 mt-5 md:mb-0" />
+        <Separator className="my-5" />
 
         <ProjectsSection id="Projects" />
+
+        <Separator className="my-5 md:mt-8" />
+
+        <TechSection />
+
+        <Separator className="my-5 md:mt-8" />
+
+        <AccordionSection />
+
+        <Separator className="my-5 md:mt-8" />
       </div>
     </main>
   );
