@@ -58,7 +58,7 @@ const Panel = ({
   return (
     <>
       <button
-        className="group relative flex flex-row-reverse items-center justify-end gap-4 border-b-0 border-r-[1px] border-slate-200 bg-white p-3 transition-colors hover:bg-slate-50 dark:border-white dark:bg-[#1b1b1b] lg:flex-col"
+        className="group relative flex flex-row-reverse items-center justify-end gap-4 border-b-0 border-r-[1px] border-slate-200 bg-white p-3 transition-colors hover:bg-slate-50 dark:border-white dark:bg-card lg:flex-col"
         onClick={() => setOpen(id)}
       >
         <span
