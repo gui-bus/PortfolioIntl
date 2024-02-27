@@ -1,3 +1,4 @@
+'use client'
 import { Separator } from "@/components/ui/separator";
 import AccordionSection from "@/sections/accordion-section";
 import HeroSection from "@/sections/hero-section";

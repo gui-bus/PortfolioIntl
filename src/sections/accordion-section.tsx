@@ -1,3 +1,4 @@
+'use client'
 import VerticalAccordion from "@/components/common/VerticalAccordion";
 import { Button } from "@/components/ui/button";
 import { useTranslations } from "next-intl";
