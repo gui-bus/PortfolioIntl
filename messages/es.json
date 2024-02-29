@@ -40,6 +40,8 @@
     "CinedexDescription": "Cinedex es una plataforma en línea de catálogo de películas, desarrollada con React, Typescript, Next.js, NextUI, Tailwind CSS y Vercel. ¡El proyecto ofrece una amplia gama de opciones de películas clasificadas por géneros para que las explores!",
     "DriveXSub": "¡Experiencia Automotriz en un Nuevo Nivel!",
     "DriveXDescription": "DriveX es una plataforma de compra y venta de vehículos desarrollada con Vite, React, TypeScript, Firebase y Tailwind CSS. ¡Encuentra tu próximo auto de ensueño!",
+    "BreadKingSub": "Tu Viaje al Sabor Auténtico",
+    "BreadKingDescription": "The Bread King es una página de destino desarrollada con React, Typescript, Next.js, ShadCN/UI, Tailwind CSS y Vercel. Deléitate con nuestros productos cuidadosamente elaborados para proporcionar experiencias únicas.",
     "title": "Proyectos",
     "subtitle": "Explore una selección de proyectos que ilustran mi dedicación y habilidades a lo largo de mi carrera."
   },

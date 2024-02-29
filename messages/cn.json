@@ -40,6 +40,8 @@
     "CinedexDescription": "Cinedex是一个在线电影目录平台，使用React、Typescript、Next.js、NextUI、Tailwind CSS和Vercel制作。该项目提供广泛的电影选择，按类别和流派分类，供您探索！",
     "DriveXSub": "将汽车体验提升到新的高度！",
     "DriveXDescription": "DriveX是一款汽车买卖平台，使用Vite、React、Typescript、Firebase和Tailwind CSS制作。找到您下一辆梦想的车辆！",
+    "BreadKingSub": "您的正宗味之旅",
+    "BreadKingDescription": "The Bread King是一个使用React、Typescript、Next.js、ShadCN/UI、Tailwind CSS和Vercel开发的着陆页。尽情享受我们精心制作的产品，为您提供独特的体验。",
     "title": "项目",
     "subtitle": "浏览一系列项目，展示了我在整个职业生涯中的投入和技能。"
   },

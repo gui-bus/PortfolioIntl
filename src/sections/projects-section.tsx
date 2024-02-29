@@ -103,6 +103,16 @@ const projectData = [
     repoLink: "https://github.com/gui-bus/DriveX",
     id: "DriveX",
   },
+  {
+    title: "The Bread King",
+    imageUrl:
+      "https://github.com/gui-bus/TheBreadKing/blob/main/github/desktop_01.png?raw=true",
+    sub: "BreadKingSub",
+    desc: "BreadKingDescription",
+    link: "https://thebreadking.vercel.app/",
+    repoLink: "https://github.com/gui-bus/TheBreadKing",
+    id: "TheBreadKing",
+  },
 ];
 
 const ProjectsSection = ({ id }: { id: string }) => {
