@@ -42,6 +42,10 @@
     "DriveXDescription": "DriveX是一款汽车买卖平台，使用Vite、React、Typescript、Firebase和Tailwind CSS制作。找到您下一辆梦想的车辆！",
     "BreadKingSub": "您的正宗味之旅",
     "BreadKingDescription": "The Bread King是一个使用React、Typescript、Next.js、ShadCN/UI、Tailwind CSS和Vercel开发的着陆页。尽情享受我们精心制作的产品，为您提供独特的体验。",
+    "BuildMasterSub": "与我们一起激发您的成功",
+    "BuildMasterDescription": "BuildMaster是使用React、Typescript、Next.js、ShadCN/UI、Tailwind CSS和Vercel开发的着陆页。发现BuildMaster如何推动您的项目和业务。您的创新和卓越可靠伙伴，产生非凡的成果。",
+    "STARKFITSub": "激发您的生活方式",
+    "STARKFITDescription": "STARKFIT是使用React、Typescript、Next.js、ShadCN/UI、Tailwind CSS和Vercel开发的着陆页。在STARKFIT开始健康生活的旅程。探索定制的锻炼、现代设备和充满活力的社区。",
     "title": "项目",
     "subtitle": "浏览一系列项目，展示了我在整个职业生涯中的投入和技能。"
   },

@@ -42,6 +42,10 @@
     "DriveXDescription": "DriveX est une plateforme d'achat et de vente de véhicules développée avec Vite, React, TypeScript, Firebase et Tailwind CSS. Trouvez votre prochaine voiture de rêve !",
     "BreadKingSub": "Votre Voyage vers une Saveur Authentique",
     "BreadKingDescription": "The Bread King est une page d'atterrissage développée avec React, Typescript, Next.js, ShadCN/UI, Tailwind CSS et Vercel. Régalez-vous avec nos produits soigneusement préparés pour offrir des expériences uniques.",
+    "BuildMasterSub": "Renforcez votre succès avec nous",
+    "BuildMasterDescription": "BuildMaster est une page d'atterrissage développée avec React, Typescript, Next.js, ShadCN/UI, Tailwind CSS et Vercel. Découvrez comment BuildMaster peut stimuler vos projets et vos entreprises. Votre partenaire fiable pour l'innovation et l'excellence, générant des résultats extraordinaires.",
+    "STARKFITSub": "Énergisez votre mode de vie",
+    "STARKFITDescription": "STARKFIT est une page d'atterrissage développée avec React, Typescript, Next.js, ShadCN/UI, Tailwind CSS et Vercel. Votre voyage vers une vie saine commence chez STARKFIT. Découvrez des entraînements personnalisés, des équipements modernes et une communauté dynamique.",
     "title": "Projets",
     "subtitle": "Parcourez une sélection de projets qui illustrent mon dévouement et mes compétences tout au long de ma carrière."
   },

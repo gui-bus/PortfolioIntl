@@ -113,6 +113,26 @@ const projectData = [
     repoLink: "https://github.com/gui-bus/TheBreadKing",
     id: "TheBreadKing",
   },
+  {
+    title: "BuildMaster",
+    imageUrl:
+      "https://github.com/gui-bus/BuildMaster/blob/main/github/desktop_01.png?raw=true",
+    sub: "BuildMasterSub",
+    desc: "BuildMasterDescription",
+    link: "https://buildmaster.vercel.app/",
+    repoLink: "https://github.com/gui-bus/BuildMaster",
+    id: "BuildMaster",
+  },
+  {
+    title: "STARKFIT",
+    imageUrl:
+      "https://github.com/gui-bus/STARKFIT/blob/main/github/desktop_01.png?raw=true",
+    sub: "STARKFITSub",
+    desc: "STARKFITDescription",
+    link: "https://starkfit.vercel.app/",
+    repoLink: "https://github.com/gui-bus/STARKFIT",
+    id: "STARKFIT",
+  },
 ];
 
 const ProjectsSection = ({ id }: { id: string }) => {
